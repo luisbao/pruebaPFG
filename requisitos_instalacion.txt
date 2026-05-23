@@ -1,0 +1,23 @@
+# -----------------------------------------------------------
+# Proyecto: Proyecto de Fin de Grado
+# Autor: Luis Bao Bello
+#
+# Descripción:
+#   Dependencias Python necesarias para ejecutar el backend
+#   FastAPI, el motor de recomendación visual y los scripts de
+#   preparación, mantenimiento y validación del catálogo.
+# -----------------------------------------------------------
+
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+sqlalchemy==2.0.36
+pydantic[email]==2.10.4
+python-multipart==0.0.20
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.0.1
+numpy==2.2.1
+pillow==11.0.0
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.5.1+cpu
+transformers==4.47.1

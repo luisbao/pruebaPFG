@@ -1,0 +1,95 @@
+# -----------------------------------------------------------
+# Proyecto: Proyecto de Fin de Grado
+# Autor: Luis Bao Bello
+#
+# Descripción:
+#   Reglas de Git para excluir cachés, dependencias, archivos
+#   generados, entornos locales y datos pesados que no forman
+#   parte del código fuente entregable.
+# -----------------------------------------------------------
+
+# Archivos generados por Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+wheels/
+*.egg
+
+# Pruebas, cobertura y análisis local
+.pytest_cache/
+.mypy_cache/
+.pyre/
+.tox/
+.nox/
+.hypothesis/
+.coverage
+.coverage.*
+coverage/
+htmlcov/
+
+# Entornos locales y variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Dependencias y compilación del frontend
+node_modules/
+front/node_modules/
+front/dist/
+dist-ssr/
+*.tsbuildinfo
+.npm/
+.eslintcache
+.stylelintcache
+.cache/
+.parcel-cache/
+.nyc_output/
+
+# Datos del proyecto no incluidos en la entrega
+datos/
+datos_myntra_backup/
+*.db
+*.sqlite
+*.sqlite3
+
+# Archivos del sistema operativo
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Configuración local de editores
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+*.swp
+*.swo
+*~
+
+# Copias, temporales y paquetes generados
+*.log
+*.tmp
+*.temp
+*.bak
+*.backup
+*_backup*
+*.zip
+*.tar.gz

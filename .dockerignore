@@ -1,0 +1,26 @@
+# -----------------------------------------------------------
+# Proyecto: Proyecto de Fin de Grado
+# Autor: Luis Bao Bello
+#
+# Descripción:
+#   Reglas para excluir del contexto de construcción de Docker
+#   dependencias locales, resultados generados, cachés y datos
+#   pesados que no forman parte de la imagen del backend.
+# -----------------------------------------------------------
+
+.git
+.venv
+__pycache__
+*.pyc
+.DS_Store
+
+basura
+docs
+front
+*.drawio
+*.dbml
+
+front/node_modules
+front/dist
+
+datos
